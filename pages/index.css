@@ -6,10 +6,8 @@ h1,
 h2,
 h3,
 h4,
-a,
-ul {
+a {
   margin: 0;
-
 }
 
 .page {
@@ -99,17 +97,14 @@ header {
   top: 124px;
   right: 85px;
 }
-.header-footer {
+.header__footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   margin-top: auto;
   color: #838383;
 }
-.header-footer__list {
-  list-style: none;
-  padding-left: 0;
-}
+
 /* HEADER-END*/
 
 /* RECETAS-START */
@@ -144,7 +139,11 @@ header {
   flex-direction: column;
   gap: 24px;
 }
-.recipes__video_container {
+.recipes__iframe {
+  width: 480px;
+  height: 273px;
+}
+.recipes__video-container {
   display: flex;
   justify-content: space-between;
 }
