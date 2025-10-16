@@ -152,3 +152,70 @@ header {
   line-height: 30px;
 }
 /* RECETAS-END */
+
+/* RESERVACIONES-START */
+.reservation {
+  background-color: #D9E7FF;
+  background-image: url(../images/background_reservation.svg);
+  background-position: center;
+  background-size: cover;
+}
+.reservation__title{
+  text-align: center;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  padding-top: 100px;
+}
+.reservation__form {
+  margin: 0 auto;
+  padding: 80px 0 120px 0;
+  max-width: 385px;
+}
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+}
+.form__label {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.form__input {
+  height: 60px;
+  margin-bottom: 32px;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.form__input::placeholder {
+  padding: 15px 20px;
+  color: #838383;
+}
+.form__button {
+  margin-bottom: 32px;
+  border-radius: 4px;
+  background-color: #2f80ed;
+  color: #fff;
+  height: 60px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+}
+.form__button:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+.form__checkbox {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.form__checkbox-input {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+}
+/* RESERVACIONES-END */
