@@ -33,7 +33,3 @@ a {
   font-size: 20px;
   line-height: 30px;
 }
-.content {
-  position: relative;
-  z-index: 3;
-}

@@ -1,7 +1,7 @@
 @import url(../vendor/normalize.css);
 
 /* GLOBALES */
-@import url(../blocks/pages.css);
+@import url(../blocks/page.css);
 
 /* header */
 @import url(../blocks/header.css);
@@ -15,5 +15,7 @@
 /* Reservation */
 @import url(../blocks/reservation.css);
 
+/* Form */
+@import url(../blocks/form.css);
 /* Footer */
 @import url(../blocks/footer.css);
