@@ -26,10 +26,4 @@ a {
 * {
   box-sizing: border-box;
 }
-.subtitle-text {
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-}
+

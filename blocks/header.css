@@ -13,7 +13,13 @@ header {
   position: relative;
 
 }
-
+.subtitle-text {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
 .header__title {
   display: flex;
   flex-direction: column;

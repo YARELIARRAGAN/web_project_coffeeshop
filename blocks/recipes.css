@@ -10,6 +10,13 @@
   padding: 100px 0 215px 80px;
 
 }
+.subtitle-text {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
 .recipes__title {
   max-width: 580px;
   margin-bottom: 24px;
