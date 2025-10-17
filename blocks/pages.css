@@ -1,0 +1,39 @@
+
+/* GLOBALES */
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+a {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.page {
+  max-width: 1600px;
+  min-width: 1100px;
+  margin: 0 auto;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+}
+* {
+  box-sizing: border-box;
+}
+.subtitle-text {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+.content {
+  position: relative;
+  z-index: 3;
+}

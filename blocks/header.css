@@ -1,0 +1,50 @@
+/* HEADER-START*/
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  background-image: url(../images/background_header.svg);
+  background-size: cover;
+  background-position: center;
+  padding: 30px 80px 40px;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  position: relative;
+
+}
+
+.header__title {
+  display: flex;
+  flex-direction: column;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+  max-width: 709px;
+  margin: 183px 0 28px;
+}
+.header__span-accent {
+  color: #2f80ed;
+  font-family: "Noto serif";
+  font-style: Italic;
+  line-height: 72px;
+}
+.header__description {
+  max-width: 683px;
+}
+.header__image {
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  top: 124px;
+  right: 85px;
+}
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: auto;
+  color: #838383;
+}
+
+/* HEADER-END*/
